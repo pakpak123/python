@@ -7,10 +7,10 @@ def set_message():
 
 
 window = tk.Tk()
-window.title('Nuest')
+window.title('INTO1')
 window.minsize(width=400, height=400)
 
-title_label = tk.Label(master=window, text='เมื่อรักฉันเกิด')
+title_label = tk.Label(master=window, text='You are ready!!!')
 title_label.pack()
 
 text_input = tk.Entry(master=window)

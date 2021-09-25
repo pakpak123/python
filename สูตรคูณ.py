@@ -1,16 +1,11 @@
 import tkinter as tk
-
-
 def show_output():
     number = int(number_input.get())
-
     output = ''
     for i in range(1, 13):
         output += str(number) + ' x ' + str(i)
         output += ' = ' + str(number*i) + '\n'
     output_label.configure(text=output)
-
-
 window = tk.Tk()
 window.title('สูครคูณ')
 window.minsize(width=400, height=400)
